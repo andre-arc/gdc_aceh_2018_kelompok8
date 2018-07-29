@@ -1,6 +1,6 @@
     <div class="jumbotron">
       <div class="container">
-        <h2>TransKoetaradja<strong>Lover</strong></h2>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <h2><i class="fa fa-bus"></i>&nbsp;TransKoetaradja<strong>Lover</strong></h2>
+        <p>Geotag Location App based, berisi upload gambar suasana Halte Trans Koetaradja dari pengguna dengan tag location halte. Registrasi berbasis web, aplikasi berbasis Android..</p>
       </div>
     </div>
