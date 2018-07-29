@@ -23,7 +23,12 @@
 			<div class="col-md-4">
 				<div class="panel panel-primary">
 					<div class="panel-heading">
-						Judul panel
+						Top 10 User
+					</div>
+					<div class="panel-body">
+						<?php for($i=0;$i<=9;$i++):?>
+						<i class="fa fa-user"></i>&nbsp;User <?php rand(1,10);?>
+						<?php endfor;?>
 					</div>
 				</div>
 			</div>
