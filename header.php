@@ -12,9 +12,9 @@
         <div id="navbar" class="navbar-collapse navbar-right collapse">
           <ul class="nav navbar-nav">					
                 <li><a href="index.php"><i class="fa fa-bus"></i>&nbsp;Home</a></li>
-                <li><a href="#"><i class="fa fa-bus"></i>&nbsp;Klasemen</a></li>
-                <li><a href="#"><i class="fa fa-bus"></i>&nbsp;Halte</a></li>						
-                <li><a href="#"><i class="fa fa-cogs"></i>&nbsp;Login/Register</a></li>						
+                <li><a href="klasemen.php"><i class="fa fa-bus"></i>&nbsp;Klasemen</a></li>
+                <li><a href="halte.php"><i class="fa fa-bus"></i>&nbsp;Halte</a></li>						
+                <li><a href="login-register.php"><i class="fa fa-cogs"></i>&nbsp;Login/Register</a></li>						
 					</ul>
         </div>
       </div>
