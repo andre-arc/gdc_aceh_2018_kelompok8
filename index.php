@@ -44,7 +44,7 @@
 			<div class="col-md-4">
 				<div class="panel panel-primary">
 					<div class="panel-heading">
-						<i class="fa fa-map-marker"></i>&nbsp;Top 5 Halte
+						<i class="fa fa-tags"></i>&nbsp;Top 5 Halte
 					</div>
 					<ul class="list-group">
 						<?php for($i=0;$i<=4;$i++):?>
@@ -84,13 +84,13 @@
 							</span>
 						</li>
 						<li class="list-group-item">
-							<i class="fa fa-calendar"></i>&nbsp;&nbsp;Total All Tagging
+							<i class="fa fa-database"></i>&nbsp;&nbsp;Total All Tagging
 							<span class="badge pull-right">
 								<?php echo rand(20,40);?>
 							</span>
 						</li>
 						<li class="list-group-item">
-							<i class="fa fa-calendar"></i>&nbsp;&nbsp;Contact Us
+							<i class="fa fa-envelope"></i>&nbsp;&nbsp;Contact Us
 							<a class="pull-right" href="mailto:lorem@dipsum.com">Team-8</a>
 						</li>
 						

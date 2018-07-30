@@ -12,7 +12,7 @@ handlers:
   static_dir: assets/css
 
 - url: /assets/js
-    static_dir: assets/js
+  static_dir: assets/js
 
 - url: /assets/img
   static_dir: assets/img

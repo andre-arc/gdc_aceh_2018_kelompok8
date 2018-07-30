@@ -23,9 +23,8 @@
 			<div class="col-md-12">
 				<div class="panel panel-primary">
 					<div class="panel-heading">
-						<i class="fa fa-users"></i>&nbsp;Daftar Klasemen
+						<i class="fa fa-certificate"></i>&nbsp;Daftar Klasemen
 					</div>
-					<div class="panel-body">
 						<table class="table table-bordered table-hover">
 							<thead>
 								<tr>
@@ -49,7 +48,6 @@
 							<?php }?>
 							</tbody>
 						</table>
-					</div>
 				</div>
 			</div>
 		</div>
