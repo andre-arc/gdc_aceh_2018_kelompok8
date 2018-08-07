@@ -8,9 +8,14 @@ handlers:
   upload: .+\.(gif|png|jpg)$
   application_readable: true
 
-- url: /assets/css/(.*)
-  static_files: assets/css/\1
-  upload: assets/css/(.*)
+- url: /assets/css
+  static_dir: assets/css
+
+- url: /assets/js
+  static_dir: assets/js
+
+- url: /assets/img
+  static_dir: assets/img
 
 # Serve php scripts.
 - url: /(.+\.php)$
