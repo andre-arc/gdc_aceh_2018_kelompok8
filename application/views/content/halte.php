@@ -44,7 +44,7 @@
 								data-classes="table table-no-bordered table-responsive"
 								
 								data-pagination="true"
-								data-id-field="id"
+								data-id-field="KEY"
 								data-page-list="[10, 25, 50, 100, ALL]"
 								data-side-pagination="server"
 								data-response-handler="responseHandler">
