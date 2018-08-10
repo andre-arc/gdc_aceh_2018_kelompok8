@@ -1,5 +1,7 @@
 runtime: php55
-api_version: 1
+application: tes-web-api
+api_version: 1.0
+threadsafe: true
 
 handlers:
 # Serve images as static resources.
@@ -17,9 +19,8 @@ handlers:
 - url: /assets/img
   static_dir: assets/img
 
-# Serve php scripts.
-- url: /(.+\.php)$
-  script: \1
-
 - url: /
+  script: index.php
+
+- url: /(.+)
   script: index.php
