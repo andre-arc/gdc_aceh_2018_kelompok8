@@ -33,7 +33,8 @@
         </div>
         <div id="navbar" class="navbar-collapse navbar-right collapse">
           <ul class="nav navbar-nav">
-              <?php if($template == 'dashboard') {
+              <?php //if($template == 'dashboard') {?>
+              <?php if(isset($template) && ($template == 'dashboard')) {
                   ?>
                    <li><a href="<?= site_url('/dashboard')?>"><i class="fa fa-bus"></i>&nbsp;Dasboard</a></li>
                     <li><a href="<?= site_url('/klasemen')?>"><i class="fa fa-certificate"></i>&nbsp;Klasemen</a></li>
