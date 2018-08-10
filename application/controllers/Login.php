@@ -4,12 +4,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Login extends MY_Controller {
 
 	function __construct()
-
-    {
-        // Construct the parent class
+	{
+    // Construct the parent class
 		parent::__construct();
 		$this->datastore->load();
-    }
+  }
 
 	public function index()
 	{
@@ -27,11 +26,17 @@ class Login extends MY_Controller {
 		$user = $store->fetchOne($sql, [
 			'email' => $email
 		]);
-
+		
 		if($pass === decrypt($user->user_pass)){
 			$_SESSION['userdata'] = $user;
-			var_dump($_SESSION['userdata']);
+			//var_dump($_SESSION['userdata']);
 			redirect('dashboard');
 		}
 	}
+	
+	function dekrip(){
+		$pass = 'BBdsts/oVBiT9KR2rlRRI1HpnCFUVS8qd80dxY4z27o=';
+		print_r(decrypt($pass));
+	}
+	
 }
